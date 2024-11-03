@@ -10,7 +10,7 @@ Script para salvar todas as aulas preparatórias do Colégio Ari de Sá para o c
 
 Clone o repositório:
 ```bash
-git clone https://github.com/OtaviOuu/-ITA-Canvas-scraper
+git clone https://github.com/OtaviOuu/ITA-IME-ArideS-Downloader
 ```
 
 Use o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar as dependências:
