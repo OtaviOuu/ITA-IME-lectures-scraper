@@ -1,17 +1,17 @@
-# Use the official Python image from the Docker Hub
+# Use a imagem oficial do Python a partir do Docker Hub
 FROM python:3.9-slim
 
-# Set the working directory in the container
+# Definir o diretório de trabalho dentro do container
 WORKDIR /app
 
-# Copy the requirements file into the container
+# Copiar o arquivo requirements.txt para dentro do container
 COPY requirements.txt .
 
-# Install the dependencies
+# Instalar as dependências
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the application code into the container
+# Copiar o resto do código da aplicação para dentro do container
 COPY . .
 
-# Specify the command to run the application
+# Definir o comando para rodar a aplicação
 CMD ["python", "app.py"]
